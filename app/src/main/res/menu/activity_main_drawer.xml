@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_divider1"
+            android:title="Menus"
+            android:enabled="false"
+            android:icon="@android:drawable/divider_horizontal_bright"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_visitante"
+            android:title="@string/Inicio" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_portero"
+            android:title="@string/Galería" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_residente"
+            android:title="@string/Presentación" />
+    </group>
+
+    <item
+        android:id="@+id/nav_divider"
+        android:title="Usuario"
+        android:enabled="false"
+        android:icon="@android:drawable/divider_horizontal_bright"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/nav_salir"
+        android:icon="@drawable/ic_cerrar_sesion"
+        android:title="@string/CerrarSesion" />
+</menu>

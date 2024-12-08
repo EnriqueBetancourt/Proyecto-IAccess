@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">IAcccess</string>
+
+    //Botones
+    <string name="btnRegistrar">Registrarse</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="btnIniciarSesion">Iniciar Sesion</string>
+    <string name="btnCambiarFoto">Cambiar foto</string>
+    <string name="btnSubirImagen">Subir imagen</string>
+    <string name="btnRegistrarPortero">Registrarse como portero</string>
+    <string name="btnProcesarVisita">Procesar Visita</string>
+    <string name="btnVerHistorial">Ver historial</string>
+    <string name="btnAccesoRegistros">Acceso a los registros</string>
+    <string name="btnRegistrarQR">Registrar QR</string>
+    <string name="btnLlamar">Llamar</string>
+    <string name="escanearQR">Escanear QR</string>
+    <string name="llamarResidente">Llamar al residente</string>
+    <string name="registrarVisita">Registrar Visita</string>
+    <string name="registrarSalida">Registrar Salida</string>
+
+    //Labels
+    <string name="labelNombre">Nombre</string>
+    <string name="labelApellido">Apellido</string>
+    <string name="labelCorreo">Correo</string>
+    <string name="labelCelular">Celular</string>
+    <string name="labelContrasenia">Contraseña</string>
+    <string name="labelCompletarPerfil">Completar perfil</string>
+    <string name="VerContraseña">Ver contraseña</string>
+    <string name="CompletarPerfil">Completar perfil</string>
+    <string name="CompletarPerfil2">Completar tu perfil</string>
+    <string name="Curp">CURP</string>
+    <string name="FrenteIne">Frente de tu INE</string>
+    <string name="RegistrarPortero">Registrarse como Portero del Fraccionamiento</string>
+    <string name="IngresarCodigo">Ingresa el código del Fraccionamiento</string>
+    <string name="HitCodigo">Código</string>
+    <string name="CompletarInfo">Completar tu información para generar tu QR</string>
+    <string name="Visitas">Visitas</string>
+    <string name="AccedeFraccionamiento">Accede a tu fraccionamiento</string>
+    <string name="HistorialVisita">Historial de Visita</string>
+    <string name="VeTuHistorial">Ve tu historial de visitas</string>
+    <string name="RegistrarAcceso">Registrar Acceso</string>
+    <string name="RegistrarAcceso2">Registrar el acceso de los visitantes al fraccionamiento</string>
+    <string name="MonitorearVisitante">Monitorear Visitante</string>
+    <string name="ListaVisit">Ver Lista de visitantes en el Fraccionamiento</string>
+    <string name="SeleccionarVisitante">Selecciona Visitante a Monitorear</string>
+    <string name="Marcar">Marque el visitante que desea monitorear a través de gps y accediendo a información como la velocidad</string>
+    <string name="Visitantes">Visitantes</string>
+    <string name="Proveedores">Proveedores</string>
+    <string name="Monitorear">Monitorear</string>
+    <string name="SolicitudesPendientes">Seleccionar solicitudes de visita pendientes</string>
+    <string name="SeleccioneSolicitudes">Seleccione la solicitud de visita para hacer un seguimiento del proceso de escaneo QR.</string>
+    <string name="Inicio">Menu Visitante</string>
+    <string name="Galería">Menu Portero</string>
+    <string name="Presentación">Menu Residente</string>
+    <string name="CerrarSesion">Cerrar Sesión</string>
+    <string name="monitorearMapa">Monitorear con Mapa</string>
+    <string name="CodigoQR">Codigo QR</string>
+    <string name="procesarVistaInfo">Accede al fraccionamiento escaneando el codigo</string>
+    <string name="estasDeVisita">Estas de visita: </string>
+    <string name="horaDeEntrada">Hora de entrada:</string>
+    <string name="fraccionamiento">Fraccionamiento</string>
+    <string name="solicitarAcceso">Solicitar Acceso</string>
+    <string name="solicitarAccesoInfo">Envíe el nombre y el motivo de su visita al portero.</string>
+    <string name="abrirPuerta">Abrir Puerta</string>
+    <string name="abrirPuertaInfo">Accede a la puerta de tu fraccionamiento y ábrela tú mismo.</string>
+    <string name="historialVisitas">Historial de Visitas</string>
+    <string name="historialVisitasInfo">Ver el historial de las personas que te han visitado.</string>
+    <string name="verHistorial">Ver Historial</string>
+    <string name="abrirPuertaInfo2">Recuerde estar cerca de la puerta que desea abrir</string>
+    <string name="abrirPuertaPrincipal">Puerta Principal</string>
+    <string name="visitanteMonitorear">Visitante a Monitorear</string>
+
+    <string name="IngresaCodigo">Ingresa el código del Fraccionamiento</string>
+    <string name="RegistrarResidente">Registrarse como Residente del Fraccionamiento</string>
+
+
+
+
+    <string name="solicitarAccesoInfo1">Registrar Acceso como Residente</string>
+    <string name="solicitarAccesoInfo2">Solicita acceso para tu visitante al portero</string>
+    <string name="nombreCompletoVisitante">Ingresa el nombre completo del visitante</string>
+    <string name="motivoVisita">Ingresa el Motivo de la Visita</string>
+    <string name="solicitarAccesoInfo3">Su visitante/proveedor no tiene la aplicación, comparta este código por otros medios.</string>
+    <string name="compartir">Compartir</string>
+    <string name="cambiarIdioma">Ingles</string>
+
+    <string name="accederPortero">Acceder como Portero</string>
+    <string name="accederResidente">Acceder como Residente</string>
+    <string name="historialVisitante">Historial del Visitante</string>
+    <string name="historialResidente">Historial del Residente</string>
+
+    //CheckBox
+    <string name="cbContrasenia">Ver Contraseña</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_lenguaje">Inglés</string>
+    <string name="action_lenguaje2">Español</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Presentación</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

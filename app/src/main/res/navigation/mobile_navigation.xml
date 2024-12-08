@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.iacccess.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_completarPerfil"
+            app:destination="@id/completarPerfil" />
+        <action
+            android:id="@+id/action_nav_home_to_procesarVIsita"
+            app:destination="@id/procesarVIsita" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.iacccess.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_gallery_to_menuPortero2"
+            app:destination="@id/menuPortero2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.iacccess.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_menu_residente"
+            app:destination="@id/menu_residente" />
+    </fragment>
+    <fragment
+        android:id="@+id/completarPerfil"
+        android:name="com.example.iacccess.CompletarPerfil"
+        android:label="fragment_completar_perfil"
+        tools:layout="@layout/fragment_completar_perfil" >
+        <action
+            android:id="@+id/action_completarPerfil_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/historialVisitasVisitante"
+        android:name="com.example.iacccess.HistorialVisitasVisitante"
+        android:label="fragment_historial_visitas_visitante"
+        tools:layout="@layout/fragment_historial_visitas_visitante" />
+    <fragment
+        android:id="@+id/menuPortero2"
+        android:name="com.example.iacccess.MenuPortero"
+        android:label="fragment_menu_portero"
+        tools:layout="@layout/fragment_menu_portero" >
+        <action
+            android:id="@+id/action_menuPortero2_to_registrarAcceso"
+            app:destination="@id/registrarAcceso" />
+        <action
+            android:id="@+id/action_menuPortero2_to_monitorearVisitantes"
+            app:destination="@id/monitorearVisitantes" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrarAcceso"
+        android:name="com.example.iacccess.RegistrarAcceso"
+        android:label="fragment_registrar_acceso"
+        tools:layout="@layout/fragment_registrar_acceso" >
+        <action
+            android:id="@+id/action_registrarAcceso_to_menuPortero2"
+            app:destination="@id/menuPortero2" />
+    </fragment>
+    <fragment
+        android:id="@+id/monitorearVisitantes"
+        android:name="com.example.iacccess.MonitorearVisitantes"
+        android:label="fragment_monitorear_visitantes"
+        tools:layout="@layout/fragment_monitorear_visitantes" >
+        <action
+            android:id="@+id/action_monitorearVisitantes_to_menuPortero2"
+            app:destination="@id/menuPortero2" />
+        <action
+            android:id="@+id/action_monitorearVisitantes_to_monitoreoMapa"
+            app:destination="@id/monitoreoMapa" />
+    </fragment>
+    <fragment
+        android:id="@+id/procesarVIsita"
+        android:name="com.example.iacccess.ProcesarVisita"
+        android:label="fragment_procesar_v_isita"
+        tools:layout="@layout/fragment_procesar_visita" >
+        <action
+            android:id="@+id/action_procesarVIsita_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menu_residente"
+        android:name="com.example.iacccess.MenuResidente"
+        android:label="fragment_menu_residente"
+        tools:layout="@layout/fragment_menu_residente" >
+        <action
+            android:id="@+id/action_menu_residente_to_solicitar_acceso2"
+            app:destination="@id/solicitar_acceso" />
+        <action
+            android:id="@+id/action_menu_residente_to_historialVisitasResidente"
+            app:destination="@id/historialVisitasResidente" />
+    </fragment>
+    <fragment
+        android:id="@+id/solicitar_acceso"
+        android:name="com.example.iacccess.SolicitarAcceso"
+        android:label="fragment_solicitar_acceso"
+        tools:layout="@layout/fragment_solicitar_acceso" >
+        <action
+            android:id="@+id/action_solicitar_acceso_to_abrir_puerta"
+            app:destination="@id/abrir_puerta" />
+        <action
+            android:id="@+id/action_solicitar_acceso_to_menu_residente2"
+            app:destination="@id/menu_residente" />
+    </fragment>
+    <fragment
+        android:id="@+id/abrir_puerta"
+        android:name="com.example.iacccess.AbrirPuerta"
+        android:label="fragment_abrir_puerta"
+        tools:layout="@layout/fragment_abrir_puerta" >
+        <action
+            android:id="@+id/action_abrir_puerta_to_menu_residente2"
+            app:destination="@id/menu_residente" />
+    </fragment>
+    <fragment
+        android:id="@+id/monitoreoMapa"
+        android:name="com.example.iacccess.MonitoreoMapa"
+        android:label="fragment_monitoreo_mapa"
+        tools:layout="@layout/fragment_monitoreo_mapa" >
+        <action
+            android:id="@+id/action_monitoreoMapa_to_monitorearVisitantes"
+            app:destination="@id/monitorearVisitantes" />
+    </fragment>
+    <fragment
+        android:id="@+id/historialVisitasResidente"
+        android:name="com.example.iacccess.HistorialVisitasResidente"
+        android:label="fragment_historial_visitas_residente"
+        tools:layout="@layout/fragment_historial_visitas_residente" >
+        <action
+            android:id="@+id/action_historialVisitasResidente_to_menu_residente"
+            app:destination="@id/menu_residente" />
+    </fragment>
+</navigation>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IAcccess</string>
+    //Botones
+    <string name="btnRegistrar">Register</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnIniciarSesion">Login</string>
+    <string name="btnCambiarFoto">Change photo</string>
+    <string name="btnSubirImagen">Upload image</string>
+    <string name="btnRegistrarPortero">Register as a doorman</string>
+    <string name="btnProcesarVisita">Process visit</string>
+    <string name="btnVerHistorial">View history</string>
+    <string name="btnAccesoRegistros">Access to records</string>
+    <string name="btnRegistrarQR">Register QR</string>
+    <string name="btnLlamar">Call</string>
+    <string name="escanearQR">Scan QR</string>
+    <string name="llamarResidente">Call the Resident</string>
+    <string name="registrarVisita">Register Visit</string>
+    <string name="registrarSalida">Register Exit</string>
+
+    //Labels
+    <string name="labelNombre">Name</string>
+    <string name="labelApellido">Last Name</string>
+    <string name="labelCorreo">Email</string>
+    <string name="labelCelular">Phone number</string>
+    <string name="labelContrasenia">Password</string>
+    <string name="labelCompletarPerfil">Complete profile</string>
+    <string name="VerContraseña">See password</string>
+    <string name="CompletarPerfil">Complete profile</string>
+    <string name="CompletarPerfil2">Complete your profile</string>
+    <string name="Curp">CURP</string>
+    <string name="FrenteIne">Front of your INE</string>
+    <string name="RegistrarPortero">Registering as a Condominium Doorman</string>
+    <string name="IngresarCodigo">Enter the gated community code</string>
+    <string name="HitCodigo">Code</string>
+    <string name="CompletarInfo">Fill in your information to generate your QR</string>
+    <string name="Visitas">Visits</string>
+    <string name="AccedeFraccionamiento">Access to a gated community</string>
+    <string name="HistorialVisita">Visitor History</string>
+    <string name="VeTuHistorial">View your visit history</string>
+    <string name="RegistrarAcceso">Register Access</string>
+    <string name="RegistrarAcceso2">Registering visitor access to the gated community</string>
+    <string name="MonitorearVisitante">Monitor Visitor</string>
+    <string name="ListaVisit">View List of visitors to the development</string>
+    <string name="SeleccionarVisitante">Select Visitor to Monitor</string>
+    <string name="Marcar">Mark the visitor you wish to monitor via gps and access information such as speed.</string>
+    <string name="Visitantes">Visitors</string>
+    <string name="Proveedores">Suppliers</string>
+    <string name="Monitorear">Monitor</string>
+    <string name="monitorearMapa">Monitoring with Map</string>
+    <string name="SolicitudesPendientes">Select pending visit requests</string>
+    <string name="SeleccioneSolicitudes">Select the visit request to track the QR scanning process.</string>
+    <string name="Inicio">Visitor Menu</string>
+    <string name="Galería">Doorman Menu</string>
+    <string name="Presentación">Resident Menu</string>
+    <string name="CerrarSesion">Sign out</string>
+    <string name="CodigoQR">QR Code</string>
+    <string name="procesarVistaInfo">Access the gated community by scanning the code.</string>
+    <string name="estasDeVisita">You are visiting: </string>
+    <string name="horaDeEntrada">Check-in time:</string>
+    <string name="fraccionamiento">Gated Community</string>
+
+    <string name="solicitarAcceso">Request Access</string>
+    <string name="solicitarAccesoInfo">Send the name and reason for your visit to the doorman.</string>
+    <string name="abrirPuerta">Open Door</string>
+    <string name="abrirPuertaInfo">Access the gate of your gated community and open it yourself.</string>
+    <string name="historialVisitas">Visitor History</string>
+    <string name="historialVisitasInfo">View the history of people who have visited you.</string>
+    <string name="verHistorial">View History</string>
+
+    <string name="abrirPuertaInfo2">Remember to be close to the door you want to open</string>
+    <string name="abrirPuertaPrincipal">Main Door</string>
+
+    <string name="solicitarAccesoInfo1">Register Access as a Resident</string>
+    <string name="solicitarAccesoInfo2">Request access for your visitor to the gatekeeper</string>
+    <string name="nombreCompletoVisitante">Enter the visitor\'s full name</string>
+    <string name="motivoVisita">Enter the Reason for Visit</string>
+    <string name="solicitarAccesoInfo3">Your visitor/supplier does not have the application, share this code by other means.</string>
+    <string name="compartir">Share</string>
+    <string name="cambiarIdioma">Español</string>
+
+    <string name="accederPortero">Access as a Doorman</string>
+    <string name="accederResidente">Access as a Resident</string>
+
+    <string name="historialVisitante">Visitor History</string>
+    <string name="historialResidente">Resident History</string>
+
+    <string name="IngresaCodigo">Enter the code of the Fractionation</string>
+    <string name="RegistrarResidente">Registrarse como Residente del Fraccionamiento</string>
+
+    //CheckBox
+    <string name="cbContrasenia">See Password</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_lenguaje">English</string>
+    <string name="action_lenguaje2">Spanish</string>
+    <string name="visitanteMonitorear">Visitor to Monitor</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "955746661437",
+    "project_id": "i-access-7d628",
+    "storage_bucket": "i-access-7d628.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955746661437:android:e1c43700a93b8e96062654",
+        "android_client_info": {
+          "package_name": "com.example.iacccess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkxDrFwjsf9tDtbftUQmNUggGHwmG1DEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
